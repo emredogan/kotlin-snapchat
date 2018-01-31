@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "678875699382",
+    "firebase_url": "https://snapchat-kotlin.firebaseio.com",
+    "project_id": "snapchat-kotlin",
+    "storage_bucket": "snapchat-kotlin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678875699382:android:d3a9f4d90ec4c5f2",
+        "android_client_info": {
+          "package_name": "com.emredogan.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678875699382-436hj4ll31ph13vvmss3soc2odlo28aa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGJav7U34nRj1etzy20vhyWd1OCU1gql8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
