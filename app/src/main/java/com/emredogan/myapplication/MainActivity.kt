@@ -44,6 +44,8 @@ class MainActivity : AppCompatActivity() {
 
         Toast.makeText(this,"Button Pressed",Toast.LENGTH_LONG);
 
+        Log.i("BUTTTON","PPRESSED")
+
         //CHECK IF WE CAN LOGIN IF NOT SIGN UP
 
         mAuth.signInWithEmailAndPassword(emailEditText?.text.toString(), passwordEditText?.text.toString())
