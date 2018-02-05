@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.emredogan.myapplication.SnapsActivity">
+    tools:context="com.emredogan.myapplication.chooseUserActivity">
 
     <ListView
-        android:id="@+id/snapsListView"
+        android:id="@+id/chooseUserListView"
         android:layout_width="368dp"
         android:layout_height="495dp"
         android:layout_marginBottom="8dp"

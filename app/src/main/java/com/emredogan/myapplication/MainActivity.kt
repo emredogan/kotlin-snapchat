@@ -17,6 +17,7 @@ import android.R.attr.password
 import android.content.Intent
 import android.support.v4.app.FragmentActivity
 import android.util.Log
+import com.google.firebase.database.FirebaseDatabase
 
 
 class MainActivity : AppCompatActivity() {
@@ -62,8 +63,11 @@ class MainActivity : AppCompatActivity() {
 
 
                             if(task.isSuccessful) {
+                                FirebaseDatabase.getInstance().getReference().child("users").child(task.result.user.uid).child("email").setValue(emailEditText?.text.toString())
+
                                 logIn()
-                                //ADD TO DATABASE
+
+
                             } else {
                                 Toast.makeText(this,"Login Failed TRY AGAIN",Toast.LENGTH_LONG);
                             }
